@@ -1,0 +1,352 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    font-size: 50px;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+nav ul {
+    font-size: 20px;
+    display: flex;
+    padding-left: 400px;
+    list-style: none;
+    gap: 90px;
+    padding-top: 20px;    
+    
+}
+nav ul:hover {
+    transition: all 0.3 sec ease;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: orange;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 70px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    background-color: rgb(227, 182, 123);
+    
+    width: 50%;
+    height: 500px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.pere1 {
+    color: orangered;
+    font-weight: bolder;
+}
+
+.pere2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.pere4 {
+    color: white;
+    background-color: orangered ;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ser1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.ser2 {
+    font-weight: bolder;
+}
+.design {
+    display: flex;
+    padding-left: 150px;
+    gap: 20px;
+
+
+
+}
+.des {
+    border: 2px solid orangered;
+    height: 300px;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 20px;    
+}
+.vali2 {
+    font-size: 40px;
+}
+.vali3{
+    font-size: 40px;
+    padding-top: 15px;
+}
+.vali {
+    padding-top: 15px;
+}
+.port {
+display: flex;
+background-color: rgb(223, 235, 235);
+}
+.bts{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.bts1 {
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.our {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.jimin {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.ora {
+    width: 100%;
+    background-color: orangered;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.luan {
+    width: 100%;
+    background-color: rgb(231, 216, 211);
+    height: 40px;
+    
+}
+.luna {
+    background-color: orangered;
+    color: white;
+    padding-left: 200px;
+    height: 400px;
+    
+}
+.boss {
+    width: 250px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px  ;
+}
+.hardik {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+ 
+}
+
+.basic {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    border: 2px solid black;
+   
+}
+.no1 {
+    color: orangered;
+    font-size: 50px;
+    font-weight: bolder
+}
+.no2 {
+    color: black;
+}
+
+.no3 {
+    line-height: 300%;
+}
+.no4 {
+    width: 150px;
+    background-color: orangered;
+}
+.some {
+    font-weight: bolder;
+    font-size: 50px;
+}
+.start {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.start1 {
+color: orangered;
+}
+.start2 {
+    color: black;
+}
+.puna {
+    padding-left: 150px;
+}
+.photo {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: -260px;
+}
+.photo1{
+    position: absolute;
+    top: -100px;
+    padding-left: 200px;
+}
+.photo2 {
+    position: absolute;
+    top: 130px;
+    
+}
+.big0 {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+}
+.big{
+    background-image: url("https://img.freepik.com/free-photo/group-business-people-working-office_1303-30522.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 600px;
+    border: 2px solid beige;
+    background-repeat: no-repeat;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+
+.big1 {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+}
+
+.big0 {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    margin-top: 490px;
+}
+
+.last {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.last1 {
+    height: 267px;
+    width: 400px;
+    
+    
+}
+.last1 img{
+    width: 100%;
+}
+
+.l1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.black {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.black1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.black2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.black3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.black4 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.b1 {
+    color: white;
+    font-size: 30px;
+}
+.b2 {
+    color: white;
+    
+}
+
+.nb1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nb2 {
+    color: white;
+}
+.nb3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nb4 {
+    color: white;
+}
+
+.nb5 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nb6 {
+    color: grey;
+}
+.nb7 {
+    color: orange;
+    font-size: 25px;
+}
